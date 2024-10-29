@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.video{
+    width: 100%;
+    /* height: 100vh; */
+    object-fit: cover;
+    position: absolute;
+    
+}
+.header{
+    width: 1920px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.nav{
+    width: 1400px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav ul{
+    display: flex;
+    gap: 27px;
+    color: white;
+    font-family: Arial;
+    font-size: 11.81px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: left;
+
+}
+.nav ul li:hover{
+    color: blue;
+    font-size: 20px;
+    transition: all 500ms;
+}
+.div{
+    width: 1400px;
+    height: 1000px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 33;
+
+}
+.starlink{
+    width: 520px;
+    height: 182.5px;
+    margin-top: 737px;
+    margin-left: 50px;
+    color: white;
+    position: absolute;
+}
+.starlink h3{
+    font-family: Arial;
+    font-size: 17.19px;
+    font-weight: 400;
+    line-height: 38px;
+    text-align: left;
+
+}
+.starlink h2{
+    font-family: Arial;
+    font-size: 41.06px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+
+}
+.btn{
+    width: 130px;
+    height: 50px;
+    padding: 0px 42.07px 0px 42px;
+    border: 2px solid red;
+
+}
+.btn:hover{
+    background-color: blue;
+}
+.section{
+    width: 1920px;
+    height: 1200px;
+    margin: 0 auto;
+
+}
+.footer{
+    margin: 0 auto;
+    width: 1990px;
+    height: 81px;
+    padding: 23px 0px;
+    background-color: black;
+    
+}
+.footer ul{
+    color: white;
+    display: flex;
+    gap: 44px;
+    font-family: Arial;
+    font-size: 9.94px;
+    font-weight: 400;
+    line-height: 24px;
+    justify-content: center;
+    align-items: center;
+    
+}
